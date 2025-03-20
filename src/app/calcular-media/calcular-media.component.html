@@ -1,0 +1,13 @@
+<h1> Digite sua nota </h1>
+<input type="number" class="form-control w-50 mt-2" name = "AC1" [(ngModel)]="AC1"/>
+
+<input type="number" class="form-control w-50 mt-2" name = "AC2"[(ngModel)]="AC2"/>
+
+<input type="number" class="form-control w-50 mt-2" name = "AG"[(ngModel)] = "AG"/>
+
+<input type="number" class="form-control w-50 mt-2" name = "AF" [(ngModel)]="AF"/>
+
+<button class="btn btn-info mt-2" (click) = "calcularmedia()"> Calcular </button>
+
+<p> Sua média é = {{media}}</p>
+<p> Sua situação é = {{resultado}}</p>

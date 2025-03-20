@@ -1,0 +1,12 @@
+<h5>Nome do segurado</h5>
+<input type="string" class="form-control w-50 mt-2" name = 'Nome' [(ngModel)]="Nome"/>
+<h5>Sexo</h5>
+<input type="string" class="form-control w-50 mt-2" name = 'Sexo' [(ngModel)]="Sexo" />
+<h5>Idade</h5>
+<input type="number" class="form-control w-50 mt-2" name = 'Idade'[(ngModel)]="Idade"/>
+<h5>Valor do automovel</h5>
+<input type="number" class="form-control w-50 mt-2" name ='Valor' [(ngModel)]="Valor" />
+
+<button class="btn btn-info mt-2" (click) = "calcular()"> Calcular </button>
+
+<p> Sua apolice é = {{resultado}}</p>

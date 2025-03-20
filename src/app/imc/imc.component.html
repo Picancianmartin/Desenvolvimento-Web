@@ -1,0 +1,8 @@
+<h5> digite seu peso</h5>
+<input type="number" class="form-control w-50 mt-2" name = 'peso'[(ngModel)]="peso"/>
+<h5> digite sua altura</h5>
+<input type="number" class="form-control w-50 mt-2" name = 'altura'[(ngModel)]="altura"/>
+
+<button class="btn btn-info mt-2" (click) = "calcular()"> calcular </button>
+
+<p> Sua multiplicacao é = {{Classificacao()}}</p>
